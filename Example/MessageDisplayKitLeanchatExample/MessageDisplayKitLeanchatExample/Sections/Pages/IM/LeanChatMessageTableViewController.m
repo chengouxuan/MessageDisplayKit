@@ -365,7 +365,7 @@ static NSInteger const kOnePageSize = 7;
     return YES;
 }
 
-- (void)loadMoreMessagesScrollTotop {
+- (void)loadMoreMessagesScrollToTop {
     if (self.messages.count == 0) {
         return;
     } else {

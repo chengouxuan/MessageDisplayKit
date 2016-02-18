@@ -303,7 +303,7 @@
     return YES;
 }
 
-- (void)loadMoreMessagesScrollTotop {
+- (void)loadMoreMessagesScrollToTop {
     if (!self.loadingMoreMessage) {
         self.loadingMoreMessage = YES;
         

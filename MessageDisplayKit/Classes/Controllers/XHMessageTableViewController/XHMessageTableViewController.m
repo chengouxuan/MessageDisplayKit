@@ -1169,8 +1169,8 @@ static CGPoint  delayOffset = {0.0};
         if (shouldLoadMoreMessages) {
             if (scrollView.contentOffset.y >= 0 && scrollView.contentOffset.y <= 44) {
                 if (!self.loadingMoreMessage) {
-                    if ([self.delegate respondsToSelector:@selector(loadMoreMessagesScrollTotop)]) {
-                        [self.delegate loadMoreMessagesScrollTotop];
+                    if ([self.delegate respondsToSelector:@selector(loadMoreMessagesScrollToTop)]) {
+                        [self.delegate loadMoreMessagesScrollToTop];
                     }
                 }
             }

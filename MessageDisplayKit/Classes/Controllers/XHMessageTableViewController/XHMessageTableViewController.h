@@ -126,7 +126,7 @@
 /**
  *  下拉加载更多消息，只有在支持下拉加载更多消息的情况下才会调用。
  */
-- (void)loadMoreMessagesScrollTotop;
+- (void)loadMoreMessagesScrollToTop;
 
 /**
  *  配置TableViewCell高度的方法，如果你想定制自己的Cell样式，那么你必须要实现DataSource中的方法
